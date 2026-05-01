@@ -1,4 +1,4 @@
-# 📰 Portal de Noticias - Medios sociales Gieovanny Frías
+# 📰 Portal de Gieovanny Frías | Noticias
 Proyecto de noticias personales alojado en GitHub Pages.
 
 🔗 **Sitio Web:** [noticias.gieovannyfrias.com](https://noticias.gieovannyfrias.com)
