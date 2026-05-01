@@ -32,36 +32,27 @@
 <meta name="twitter:description" content="Portal de noticias sobre medios sociales y actualidad.">
 <meta name="twitter:image" content="https://noticias.gieovannyfrias.com/Imagenes/Logo.webp">
 
- 
-    <!-- Datos Estructurados (JSON-LD) - Organización -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "NewsMediaOrganization",
-      "name": "Gieovanny Frías Noticias",
-      "url": "https://noticias.gieovannyfrias.com",
-      "logo": "https://noticias.gieovannyfrias.com/Imagenes/Logo.webp",
-      "sameAs": [
-        "https://x.com/gieovannyfriasn",
-        "https://facebook.com/gieovannyfriasnoticias"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "url": "https://noticias.gieovannyfrias.com"
-      }
-    }
-    </script>
+    <!-- Datos Estructurados (JSON-LD) - Sitio Web en todas las variantes porque no es una organizacion se denomina website ya que el dominio principal es person-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Gieovanny Frías Noticias",
+  "url": "https://noticias.gieovannyfrias.com",
+  "sameAs": [
+    "https://x.com/gieovannyfriasn",
+    "https://facebook.com/gieovannyfriasnoticias",
+    "https://instagram.com/gieovannyfriasnoticias",
+    "https://youtube.com/@gieovannyfriasnoticias"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://noticias.gieovannyfrias.com/buscar?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
-    <!-- Datos Estructurados (JSON-LD) - Sitio Web -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Gieovanny Frías Noticias",
-      "url": "https://noticias.gieovannyfrias.com"
-    }
-    </script>
 <!--sin acceso internet-->
  <script src="app.js"></script>
 </head>
