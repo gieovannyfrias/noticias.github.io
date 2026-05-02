@@ -8,7 +8,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     fecha: "24 Ene 2026",
     categoria: "Deportes",
-    link: "https:www.google.com"
+    link: "No_disponible.html"
   },
   {
     titulo: "🤖 Inteligencia Artificial en la educación",
@@ -16,7 +16,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     fecha: "23 Ene 2026",
     categoria: "Tecnología",
-    link: "home.html#tecnologia"
+    link: "No_disponible.html"
   },
   {
     titulo: "🎭 Cultura digital en expansión",
@@ -24,7 +24,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     fecha: "22 Ene 2026",
     categoria: "Cultura",
-    link: "home.html#cultura"
+    link: "No_disponible.html"
   },
   {
     titulo: "🚀 Exploración espacial interplanetaria",
@@ -32,7 +32,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     fecha: "21 Ene 2026",
     categoria: "Internacional",
-    link: "home.html#espacio"
+    link: "No_disponible.html"
   },
   {
     titulo: "🌱 Economía verde y sostenible",
@@ -40,7 +40,7 @@ const noticias = [
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
     fecha: "20 Ene 2026",
     categoria: "Economía",
-    link: "home.html#economia"
+    link: "No_disponible.html"
   }
 ];
 
@@ -179,7 +179,7 @@ function renderNoticias(contenedorId) {
     min-width: 160px;
   }
   .carousel-arrow {
-    display: none; /* en móvil solo scroll táctil */
+    display: block; /* en móvil solo scroll táctil */
   }
 }
 
