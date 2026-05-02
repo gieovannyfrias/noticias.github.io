@@ -57,6 +57,8 @@
  <script src="app.js"></script>
 </head>
 <body>
+  <audio id="audioelement" src="https://noticias.gieovannyfrias.com/Musica/sonido_de_fondo_principal.mp3" loop></audio>
+
   <!-- Barra superior antes del header --> 
 <!-- Header.js moderno -->
 <!-- Aquí se insertará automáticamente el header desde header.js -->
@@ -816,7 +818,11 @@ body {
   color: #ffd700;
   cursor: pointer;
 }
-
+@media (max-width: 480px) {
+.sliderIn span h2 {
+  font-size: 1rem;
+  }
+}
 /* Navegación */
 .nav {
   display: flex;
@@ -1065,7 +1071,7 @@ body {
 
     @media (max-width: 480px) {
   .sliderConr { 
-    height: 250px; 
+    height: 430px; 
   }
   .slideTit h2 { 
     font-size: 1rem; 
@@ -1887,6 +1893,14 @@ const yearElements = document.querySelectorAll(".year");
 // Insertar el año en cada uno
 yearElements.forEach(el => {
   el.textContent = currentYear;
+});
+   //audio de fondo
+document.addEventListener('click', function playSound() {
+    const audio = document.getElementById('audioelement');
+    audio.play().catch(error => {
+        console.error("Error al reproducir el audio:", error);
+    });
+    document.removeEventListener('click', playSound);
 });
 </script>
 
