@@ -6,42 +6,42 @@ const recomendados = [
     titulo: "Captura a Nicolás Maduro",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "México se une con China",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "España entra en paro",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "Puebla entra en crisis",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "Incendio en Cámara de Diputados",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   },
   {
     titulo: "Nuevo Tren Maya",
     descripcion: "Contenido sugerido según tus intereses.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
     fecha: "22 Ene 2026"
   }
 ];
@@ -170,7 +170,7 @@ function renderRecomendados() {
     min-width: 160px;
   }
   .recomendado-arrow {
-    display: none; /* en móvil solo scroll táctil */
+    display: block; /* en móvil solo scroll táctil */
   }
 }
   `;
