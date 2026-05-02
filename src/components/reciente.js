@@ -6,21 +6,21 @@ const recientes = [
     titulo: "🎨 Evento cultural",
     descripcion: "Se inaugura una exposición de arte contemporáneo en el centro histórico.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
   {
     titulo: "🎶 Concierto sorpresa",
     descripcion: "Una banda internacional ofrece un show inesperado en la plaza principal.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
   {
     titulo: "📚 Feria del libro",
     descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
@@ -28,14 +28,14 @@ const recientes = [
     titulo: "📚 Feria del libro",
     descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
    {
     titulo: "📚 Feria del libro",
     descripcion: "Autores nacionales presentan sus nuevas obras en la feria anual.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  },
    {
@@ -49,7 +49,7 @@ const recientes = [
     titulo: "🏃 Carrera solidaria",
     descripcion: "Miles de participantes se unen para apoyar causas benéficas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"  }
 ];
@@ -178,7 +178,7 @@ function renderRecientes() {
     min-width: 160px;
   }
   .recientes-arrow {
-    display: none; /* en móvil solo scroll táctil */
+    display: block; /* en móvil solo scroll táctil */
   }
 }
   `;
