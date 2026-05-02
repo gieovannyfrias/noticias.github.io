@@ -3,7 +3,7 @@ const tendencias = [
     titulo: "La IA transforma la educación",
     descripcion: "Las plataformas inteligentes personalizan el aprendizaje y mejoran la experiencia de los estudiantes.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "https://www.google.com",
+    link: "No_disponible.html",
     categoria: "Tecnología",
     fecha: "Ene 2026"
   },
@@ -11,7 +11,7 @@ const tendencias = [
     titulo: "Blockchain en gobiernos",
     descripcion: "Los sistemas públicos adoptan blockchain para mayor transparencia y seguridad.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Innovación",
     fecha: "Ene 2026"
   },
@@ -19,7 +19,7 @@ const tendencias = [
     titulo: "El metaverso gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -27,7 +27,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -35,7 +35,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -43,7 +43,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -51,7 +51,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -59,7 +59,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -67,7 +67,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -75,7 +75,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -83,7 +83,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -91,7 +91,7 @@ const tendencias = [
     titulo: "El universal galatico gana terreno",
     descripcion: "Cada vez más empresas invierten en experiencias virtuales inmersivas.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Virtual",
     fecha: "Ene 2026"
   },
@@ -99,7 +99,7 @@ const tendencias = [
     titulo: "Startups latinas en auge",
     descripcion: "Nuevos emprendimientos tecnológicos de Latinoamérica conquistan mercados globales.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "#",
+    link: "No_disponible.html",
     categoria: "Negocios",
     fecha: "Ene 2026"
   }
