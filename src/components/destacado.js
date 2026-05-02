@@ -6,7 +6,7 @@ const destacados = [
     titulo: "⚡ Reforma electoral aprobada",
     descripcion: "El Congreso aprueba una nueva reforma tras intenso debate parlamentario.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
         fecha: "Ene 2026"
   },
@@ -14,7 +14,7 @@ const destacados = [
     titulo: "🌍 Economíada un giro mundial",
     descripcion: "El peso mexicano se fortalece frente al dólar en los mercados internacionales.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
@@ -22,7 +22,7 @@ const destacados = [
     titulo: "🏆 Deportes la seleccion",
     descripcion: "La selección nacional logra una clasificación histórica en el torneo.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
@@ -30,7 +30,7 @@ const destacados = [
     titulo: "💡 Tecnología en china mundial",
     descripcion: "Avance en inteligencia artificial revoluciona la industria global.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   },
@@ -38,7 +38,7 @@ const destacados = [
     titulo: "🌱 Medio ambiente esta colapsando",
     descripcion: "Se anuncia un plan global contra el cambio climático.",
     img: "https://lh3.googleusercontent.com/d/1Jj5Nr78jWUw_tdG4h8AYZWnrUCz30Ttu=w1000",
-    link: "detalle.html",
+    link: "No_disponible.html",
         categoria: "Virtual",
             fecha: "Ene 2026"
   }
@@ -168,7 +168,7 @@ function renderDestacados() {
     min-width: 160px;
   }
   .destacados-arrow {
-    display: none; /* en móvil solo scroll táctil */
+    display: block; /* en móvil solo scroll táctil */
   }
 }
   `;
